@@ -79,6 +79,10 @@ html,body{
     border-radius: 16px;
 }
 
+.bar.open{
+    background-color: #cdbb04;
+}
+
 @media (max-width:700px){
     .menu{
         display: flex;
