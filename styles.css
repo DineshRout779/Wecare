@@ -45,6 +45,29 @@ html,body{
     color: #cdbb04;
 }
 
+.add_on{
+    width: 100%;
+    padding:10px;
+    display: none;
+    flex-direction: column;
+}
+
+.add_on .title{
+    font-weight: bold;
+}
+.add_on__icons{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add_on__icons a i{
+    color: #cdbb04;
+    font-size: 1.3em;
+}
+
 .menu{
     width: 34px;
     width: 34px;
@@ -64,16 +87,37 @@ html,body{
 }
 
 @media (max-width:700px){
-    .nav .links{
-        display: none;
-    }
-
     .menu{
         display: flex;
     }
 
     .nav{
         padding: 20px;
+    }
+
+    .nav .links{
+        position: absolute;
+        top:0;
+        left: -100%;
+        height: 100vh;
+        background: rgb(250, 246, 246);
+        flex-direction: column;
+        z-index: 2;
+        padding: 60px 30px;
+        transition: left 0.4s ease-in;
+    }
+
+    .links.open{
+        left: 0;
+    }
+
+    .nav .links a{
+        margin: 10px;
+        display: block;
+    }
+
+    .add_on{
+        display: flex;
     }
 }
 
@@ -310,16 +354,17 @@ footer{
     margin-bottom: 15px;
 }
 
-.brand .icons{
+.icons{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .icons a i{
     color: rgb(231, 191, 59);
     font-size: 1.5em;
-    padding: 10px 12px;
+    /* padding: 10px 12px; */
     border-radius: 50%;
 }
 
