@@ -1,6 +1,6 @@
 html,body{
     background-color: #fff;
-    height: 200vh;
+    height:100%;
 }
 
 *{
@@ -127,7 +127,6 @@ html,body{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    height: 100vh;
 }
 
 .landingText h1{
