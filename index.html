@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
@@ -53,7 +55,7 @@
             </div>
         </div>
 
-        <div class="about" id="about">
+        <div class="about" id="about" data-aos="fade-up">
             <div class="aboutText">
                 <h1>Important tips to Follow<br> <span style="color: rgb(61, 61, 243); font-size: 16px;"> This
                         Quarantine</span></h1>
@@ -83,7 +85,7 @@
         </div>
 
 
-        <div class="info" id="tips">
+        <div class="info" id="tips" data-aos="fade-up">
             <div class="infoHeader">
                 <h3>Things you can do during this <span>Quarantine</span></h3>
             </div>
@@ -121,7 +123,7 @@
             </div>
         </div>
 
-        <div class="banner" id="app">
+        <div class="banner" id="app" data-aos="fade-up">
             <div class="bannerText">
                 <h3>Download our app today</h3>
                 <div class="apps">
@@ -137,7 +139,7 @@
                 <img src="assets/app.svg" alt="">
             </div>
         </div>
-        <footer id="contact">
+        <footer id="contact" data-aos="fade-up">
             <div class="footer__inner">
                 <div class="brand">
                     <h2>WeCare.</h2>
@@ -171,6 +173,9 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
