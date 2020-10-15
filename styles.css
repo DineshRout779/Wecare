@@ -1,6 +1,7 @@
 html,body{
     background-color: #fff;
     height:100%;
+    scroll-behavior: smooth;
 }
 
 *{
@@ -127,6 +128,8 @@ html,body{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    position: relative;
+    top: 80px;
 }
 
 .landingText h1{
@@ -173,9 +176,11 @@ html,body{
 }
 
 .about{
+    position: relative;
+    top: 100px;
     width: 85%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
