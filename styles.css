@@ -139,6 +139,10 @@ html,body{
     
 }
 
+.landingText h1 span{
+    display: block;
+}
+
 .landingText h3{
     margin: 35px 0;
     font-size: 20px;
@@ -185,12 +189,14 @@ html,body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 80px;
 }
 
 .aboutText{
     position: relative;
     padding: 50px;
     flex-basis: 40%;
+    align-self: flex-start;
 }
 
 .aboutText h1{
@@ -220,6 +226,9 @@ html,body{
     width: 85%;
     max-width: 1200px;
     margin: 100px auto;
+    position: relative;
+    top: 100px;
+    padding-top: 50px;
 }
 
 .infoHeader h3{
@@ -290,7 +299,9 @@ html,body{
     justify-content: space-between;
     align-items: center;
     background-color: #ffc100;
-    padding: 50px;
+    padding: 80px;
+    position: relative;
+    top: 100px;
 }
 
 .bannerText{
@@ -331,6 +342,7 @@ html,body{
 
 footer{
     width: 100%;
+    padding-top: 100px;
 }
 
 .footer__inner{
@@ -454,6 +466,7 @@ span.hl{
 
     .landingImage{
         width: 100%;
+        margin-top: 30px;
     }
 
     .about{
@@ -486,5 +499,9 @@ span.hl{
 
     .copyright{
         padding: 20px;
+    }
+
+    .banner{
+        flex-direction: column;
     }
 }
