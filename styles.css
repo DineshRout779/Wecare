@@ -58,7 +58,7 @@ html,body{
 }
 
 .add_on .icons{
-    margin: 10px 0;
+    margin: 10px 0 ;
 }
 
 .menu{
@@ -69,10 +69,11 @@ html,body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    padding: 10px 0 10 10px;
 }
 
 .menu .bar{
-    width: 95%;
+    width: 30px;
     margin: 0 auto;
     height: 4px;
     background-color: rgb(22, 22, 22);
@@ -91,7 +92,7 @@ html,body{
     }
 
     .nav{
-        padding: 20px;
+        padding: 10px;
     }
 
     .nav .links{
